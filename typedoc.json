@@ -1,0 +1,10 @@
+{
+  "name": "Sruim Runtime API",
+  "entryPoints": [
+    "packages/core",
+    "packages/spec",
+  ],
+  "entryPointStrategy": "packages",
+  "out": "api",
+  "includeVersion": true,
+}
