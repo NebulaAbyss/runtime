@@ -28,6 +28,9 @@
     "paths": {
       "@sruim/core": [
         "./packages/core/src"
+      ],
+      "@sruim/math": [
+        "./packages/math/src"
       ]
     }
   }
