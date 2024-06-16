@@ -16,36 +16,19 @@
     "strictNullChecks": true,
     "forceConsistentCasingInFileNames": true,
     "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
     "moduleResolution": "node",
     "module": "ESNext",
-    "target": "ES6",
+    "target": "ESNext",
     "lib": [
       "DOM",
       "ES2015",
       "ESNext"
     ],
     "paths": {
-      "@galacean/effects-core": [
-        "./packages/effects-core/src"
-      ],
-      "@galacean/effects-webgl": [
-        "./packages/effects-webgl/src"
-      ],
-      "@galacean/effects-helper": [
-        "./packages/effects-helper/src"
-      ],
-      "@galacean/effects": [
-        "./packages/effects/src"
-      ],
-      "@galacean/effects-threejs": [
-        "./packages/effects-threejs/src"
-      ],
-      "@galacean/effects-plugin-*": [
-        "./plugin-packages/*/src"
-      ],
-      "@galacean/effects-plugin-model/*": [
-        "./plugin-packages/model/src/*"
-      ],
+      "@sruim/core": [
+        "./packages/core/src"
+      ]
     }
   }
 }

@@ -9,3 +9,23 @@ updates:
     directory: "/packages/effects"
     schedule:
       interval: "weekly"
+
+  - package-ecosystem: "npm"
+    directory: "/packages/effects-core"
+    schedule:
+      interval: "weekly"
+
+  - package-ecosystem: "npm"
+    directory: "/packages/effects-helper"
+    schedule:
+      interval: "weekly"
+
+  - package-ecosystem: "npm"
+    directory: "/packages/effects-threejs"
+    schedule:
+      interval: "weekly"
+
+  - package-ecosystem: "npm"
+    directory: "/packages/effects-webgl"
+    schedule:
+      interval: "weekly"
