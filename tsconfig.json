@@ -2,6 +2,15 @@
   "references": [
     {
       "path": "./packages/specification"
+    },
+    {
+      "path": "./packages/core"
+    },
+    {
+      "path": "./packages/math"
+    },
+    {
+      "path": "./packages/rhi"
     }
   ],
   "files": [],
