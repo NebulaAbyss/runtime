@@ -150,6 +150,12 @@ importers:
 
   packages/math: {}
 
+  packages/rhi:
+    dependencies:
+      '@sruim/core':
+        specifier: workspace:*
+        version: link:../core
+
   packages/specification: {}
 
 packages:

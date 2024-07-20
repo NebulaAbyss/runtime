@@ -8,6 +8,5 @@
   "include": [
     "src",
     "../../types"
-, "tsconfig.json"  ],
-  "references": []
+  ]
 }
