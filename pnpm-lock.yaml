@@ -135,6 +135,8 @@ importers:
 
   packages/math: {}
 
+  packages/specification: {}
+
 packages:
 
   '@aashutoshrathi/word-wrap@1.2.6':

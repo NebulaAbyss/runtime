@@ -1,11 +1,8 @@
 {
   "references": [
     {
-      "path": "./packages/core"
-    },
-    {
-      "path": "./packages/spec"
+      "path": "./packages/specification"
     }
   ],
-  "files": []
+  "files": [],
 }

@@ -24,7 +24,7 @@ export default () => {
     output: {
       file: pkg.brower,
       format: 'umd',
-      name: 'srm.math',
+      name: 'srm.specification',
       banner,
       sourcemap: true,
     },
