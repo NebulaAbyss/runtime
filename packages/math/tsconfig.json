@@ -6,7 +6,6 @@
     "composite": true,
   },
   "include": [
-    "src",
-    "../../types"
+    "src"
   ]
 }

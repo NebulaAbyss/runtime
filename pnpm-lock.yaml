@@ -141,6 +141,9 @@ importers:
 
   packages/core:
     dependencies:
+      '@sruim/specification':
+        specifier: workspace:*
+        version: link:../specification
       flatbuffers:
         specifier: 24.3.25
         version: 24.3.25
@@ -155,6 +158,9 @@ importers:
       '@sruim/core':
         specifier: workspace:*
         version: link:../core
+      '@sruim/specification':
+        specifier: workspace:*
+        version: link:../specification
 
   packages/specification: {}
 

@@ -1,17 +1,12 @@
 {
-  "references": [
-    {
-      "path": "./packages/specification"
-    },
-    {
-      "path": "./packages/core"
-    },
-    {
-      "path": "./packages/math"
-    },
-    {
-      "path": "./packages/rhi"
-    }
+  "extends": "../tsconfig.base.json",
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "dist",
+    "composite": true
+  },
+  "include": [
+    "src",
   ],
-  "files": [],
+  "references": []
 }
