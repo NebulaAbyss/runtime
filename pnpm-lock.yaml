@@ -136,8 +136,8 @@ importers:
         specifier: ^0.6.2
         version: 0.6.2(vite@4.5.3(@types/node@18.14.0)(sass@1.72.0)(terser@5.19.1))
       vite-tsconfig-paths:
-        specifier: ^4.2.2
-        version: 4.2.2(typescript@5.4.3)(vite@4.5.3(@types/node@18.14.0)(sass@1.72.0)(terser@5.19.1))
+        specifier: ^5.1.2
+        version: 5.1.2(typescript@5.4.3)(vite@4.5.3(@types/node@18.14.0)(sass@1.72.0)(terser@5.19.1))
 
   packages/core:
     dependencies:
@@ -1811,6 +1811,7 @@ packages:
   eslint@8.57.0:
     resolution: {integrity: sha512-dZ6+mexnaTIbSBZWgou51U6OmzIhYM2VcNdtiTtI7qPNZm35Akpr0f6vtw3w1Kmn5PYo+tZVfh13WrhpS6oLqQ==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    deprecated: This version is no longer supported. Please see https://eslint.org/version-support for other options.
     hasBin: true
 
   espree@9.6.1:
@@ -3056,12 +3057,12 @@ packages:
     peerDependencies:
       typescript: '>=4.2.0'
 
-  tsconfck@2.1.1:
-    resolution: {integrity: sha512-ZPCkJBKASZBmBUNqGHmRhdhM8pJYDdOXp4nRgj/O0JwUwsMq50lCDRQP/M5GBNAA0elPrq4gAeu4dkaVCuKWww==}
-    engines: {node: ^14.13.1 || ^16 || >=18}
+  tsconfck@3.1.4:
+    resolution: {integrity: sha512-kdqWFGVJqe+KGYvlSO9NIaWn9jT1Ny4oKVzAJsKii5eoE9snzTJzL4+MMVOMn+fikWGFmKEylcXL710V/kIPJQ==}
+    engines: {node: ^18 || >=20}
     hasBin: true
     peerDependencies:
-      typescript: ^4.3.5 || ^5.0.0
+      typescript: ^5.0.0
     peerDependenciesMeta:
       typescript:
         optional: true
@@ -3167,8 +3168,8 @@ packages:
     peerDependencies:
       vite: '>=2.0.0'
 
-  vite-tsconfig-paths@4.2.2:
-    resolution: {integrity: sha512-dq0FjyxHHDnp0uS3P12WEOX2W7NeuLzX9AWP38D7Zw2CTbFErapwQVlCiT5DMJcVWKQ1MMdTe92PZl/rBQ7qcw==}
+  vite-tsconfig-paths@5.1.2:
+    resolution: {integrity: sha512-gEIbKfJzSEv0yR3XS2QEocKetONoWkbROj6hGx0FHM18qKUojhvcokQsxQx5nMkelZq2n37zbSGCJn+FSODSjA==}
     peerDependencies:
       vite: '*'
     peerDependenciesMeta:
@@ -6340,7 +6341,7 @@ snapshots:
     dependencies:
       typescript: 5.4.3
 
-  tsconfck@2.1.1(typescript@5.4.3):
+  tsconfck@3.1.4(typescript@5.4.3):
     optionalDependencies:
       typescript: 5.4.3
 
@@ -6427,11 +6428,11 @@ snapshots:
       magic-string: 0.25.9
       vite: 4.5.3(@types/node@18.14.0)(sass@1.72.0)(terser@5.19.1)
 
-  vite-tsconfig-paths@4.2.2(typescript@5.4.3)(vite@4.5.3(@types/node@18.14.0)(sass@1.72.0)(terser@5.19.1)):
+  vite-tsconfig-paths@5.1.2(typescript@5.4.3)(vite@4.5.3(@types/node@18.14.0)(sass@1.72.0)(terser@5.19.1)):
     dependencies:
       debug: 4.3.4(supports-color@8.1.1)
       globrex: 0.1.2
-      tsconfck: 2.1.1(typescript@5.4.3)
+      tsconfck: 3.1.4(typescript@5.4.3)
     optionalDependencies:
       vite: 4.5.3(@types/node@18.14.0)(sass@1.72.0)(terser@5.19.1)
     transitivePeerDependencies:
