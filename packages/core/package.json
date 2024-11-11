@@ -36,6 +36,6 @@
   },
   "dependencies": {
     "flatbuffers": "24.3.25",
-    "uuid": "9.0.1"
+    "uuid": "11.0.3"
   }
 }
