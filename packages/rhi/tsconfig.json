@@ -9,5 +9,12 @@
     "src",
     "../../types"
   ],
-  "references": []
+  "references": [
+    {
+      "path": "../../packages/core"
+    },
+    {
+      "path": "../../packages/specification"
+    }
+  ]
 }
